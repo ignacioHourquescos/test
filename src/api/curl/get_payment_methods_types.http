@@ -1,0 +1,1 @@
+curl --location --request GET 'http://api.sysone.la/finance/v1/bank-account-types' --header 'X-Tenant: sysone'

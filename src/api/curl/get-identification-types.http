@@ -1,0 +1,1 @@
+curl --location --request GET 'http://api.sysone.la/party/v1/identification-types?party-type-code=ORGANISATION&country-code=ARG' --header 'X-Tenant: sysone'

@@ -1,0 +1,1 @@
+curl --location --request GET 'http://api.sysone.la/location/v1/cities/CABA/postal-codes' --header 'X-Tenant: sysone'

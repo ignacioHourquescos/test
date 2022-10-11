@@ -1,0 +1,58 @@
+stages:
+  - build
+  - deploy
+
+env-build:
+  stage: build
+  variables:
+    REACT_APP_PARTY_URL: ${DEV_REACT_APP_PARTY_URL}
+    REACT_APP_PARTY_PORT: ${DEV_REACT_APP_PARTY_PORT}
+    REACT_APP_API_BASE_URL: ${DEV_REACT_APP_API_BASE_URL}
+  script:
+    - sh ./env-build.sh
+  artifacts:
+    expire_in: 1h
+    reports:
+      dotenv: .env
+  only:
+    - development
+
+node-build:
+  stage: build
+  image: node:17-alpine
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    expire_in: 30 days
+    paths:
+      - dist
+  needs:
+    - job: env-build
+      artifacts: true
+  only:
+    - development
+
+aws-deploy:
+  stage: deploy
+  image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+  variables:
+    AWS_ACCOUNT: ${DEV_AWS_ACCOUNT}
+    AWS_CLUSTER: ${DEV_AWS_CLUSTER}
+    AWS_ACCESS_KEY_ID: ${DEV_AWS_ACCESS_KEY_ID}
+    AWS_SECRET_ACCESS_KEY: ${DEV_AWS_SECRET_ACCESS_KEY}
+    AWS_DEFAULT_REGION: ${DEV_AWS_REGION}
+    BUCKET: ${DEV_REACT_APP_PARTY_BUCKET}
+    DISTRIBUTION_ID: ${DEV_REACT_APP_PARTY_DISTRIBUTION_ID}
+    PROJECT_NAME: ${CI_PROJECT_NAME}
+  script:
+    - aws configure set aws_access_key_id "$AWS_ACCESS_KEY_ID"
+    - aws configure set aws_secret_access_key "$AWS_SECRET_ACCESS_KEY"
+    - aws configure set region "$AWS_DEFAULT_REGION"
+    - aws s3 sync dist s3://${BUCKET}
+    - aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths "/*" --no-cli-pager
+  needs:
+    - job: node-build
+      artifacts: true
+  only:
+    - development

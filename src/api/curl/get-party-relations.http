@@ -1,0 +1,1 @@
+curl --location --request GET 'http://api.sysone.la/party/v1/parties/3/relations' --header 'X-Tenant: sysone'

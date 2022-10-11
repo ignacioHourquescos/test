@@ -1,0 +1,770 @@
+{
+  "code": "PARTY_MODULE",
+  "labelCode": "party-module",
+  "path": null,
+  "menus": [
+    {
+      "code": "PARTY_MENU",
+      "labelCode": "party-menu",
+      "path": null,
+      "menus": [
+        {
+          "code": "PARTY_SEARCH_MENU",
+          "labelCode": "party-search-menu",
+          "path": null,
+          "menus": null,
+          "actions": [
+            {
+              "code": "INDIVIDUAL_FILES_DETAIL",
+              "name": "Archivos de individuos",
+              "path": null
+            },
+            {
+              "code": "INDIVIDUAL_NOTES_DETAIL",
+              "name": "Notas de individuos",
+              "path": null
+            },
+            {
+              "code": "INDIVIDUAL_PAYMENT_METHODS_DETAIL",
+              "name": "Medios de pago de individuos",
+              "path": null
+            },
+            {
+              "code": "INDIVIDUAL_RELATIONS_DETAIL",
+              "name": "Relaciones de individuos",
+              "path": null
+            },
+            {
+              "code": "INDIVIDUAL_SEARCH",
+              "name": "Buscar individuos",
+              "path": null
+            },
+            {
+              "code": "INDIVIDUAL_UPDATE",
+              "name": "Editar individuos",
+              "path": null
+            },
+            {
+              "code": "INDIVIDUAL_VIEW_360_DETAIL",
+              "name": "Vista 360 de individuos",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_FILES_DETAIL",
+              "name": "Archivos de organizaciones",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_NOTES_DETAIL",
+              "name": "Notas de organizaciones",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_PAYMENT_METHODS_DETAIL",
+              "name": "Medios de pago de organizaciones",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_RELATIONS_DETAIL",
+              "name": "Relaciones de organizaciones",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_SEARCH",
+              "name": "Buscar organizaciones",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_UPDATE",
+              "name": "Editar organizaciones",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_VIEW_360_DETAIL",
+              "name": "Vista 360 de organizaciones",
+              "path": null
+            }
+          ]
+        },
+        {
+          "code": "PARTY_CREATE_MENU",
+          "labelCode": "party-create-menu",
+          "path": null,
+          "menus": null,
+          "actions": [
+            {
+              "code": "INDIVIDUAL_CREATE",
+              "name": "Crear individuos",
+              "path": null
+            },
+            {
+              "code": "INDIVIDUAL_FILES_DETAIL",
+              "name": "Archivos de individuos",
+              "path": null
+            },
+            {
+              "code": "INDIVIDUAL_NOTES_DETAIL",
+              "name": "Notas de individuos",
+              "path": null
+            },
+            {
+              "code": "INDIVIDUAL_PAYMENT_METHODS_DETAIL",
+              "name": "Medios de pago de individuos",
+              "path": null
+            },
+            {
+              "code": "INDIVIDUAL_RELATIONS_DETAIL",
+              "name": "Relaciones de individuos",
+              "path": null
+            },
+            {
+              "code": "INDIVIDUAL_UPDATE",
+              "name": "Editar individuos",
+              "path": null
+            },
+            {
+              "code": "INDIVIDUAL_VIEW_360_DETAIL",
+              "name": "Vista 360 de individuos",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_CREATE",
+              "name": "Crear organizaciones",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_FILES_DETAIL",
+              "name": "Archivos de organizaciones",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_NOTES_DETAIL",
+              "name": "Notas de organizaciones",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_PAYMENT_METHODS_DETAIL",
+              "name": "Medios de pago de organizaciones",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_RELATIONS_DETAIL",
+              "name": "Relaciones de organizaciones",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_UPDATE",
+              "name": "Editar organizaciones",
+              "path": null
+            },
+            {
+              "code": "ORGANISATION_VIEW_360_DETAIL",
+              "name": "Vista 360 de organizaciones",
+              "path": null
+            }
+          ]
+        }
+      ],
+      "actions": null
+    }
+  ],
+  "services": null,
+  "labels": [
+    {
+      "code": "360-view-title",
+      "content": "Vista 360°"
+    },
+    {
+      "code": "account-debit-btn",
+      "content": "Debito en cuenta"
+    },
+    {
+      "code": "account-number-lnl",
+      "content": "Número de cuenta"
+    },
+    {
+      "code": "account-type-lbl",
+      "content": "Tipo de cuenta"
+    },
+    {
+      "code": "actions-subtitle",
+      "content": "Acciones"
+    },
+    {
+      "code": "activity-hint",
+      "content": "Actividad de la persona que se está tratando"
+    },
+    {
+      "code": "activity-lbl",
+      "content": "Actividad"
+    },
+    {
+      "code": "add-btn",
+      "content": "Agregar"
+    },
+    {
+      "code": "add-file-subtitle",
+      "content": "Agregar archivo"
+    },
+    {
+      "code": "add-note-subtitle",
+      "content": "Agregar nota"
+    },
+    {
+      "code": "add-payment-method-subtitle",
+      "content": "Agregar medio de pago"
+    },
+    {
+      "code": "are-you-sure-you-want-to-save-your-changes-subtitle",
+      "content": "¿Está seguro de que desea guardar los cambios?"
+    },
+    {
+      "code": "area-code-hint",
+      "content": "Código de área de la persona que se está tratando"
+    },
+    {
+      "code": "area-code-lbl",
+      "content": "Código área"
+    },
+    {
+      "code": "assign-segment-btn",
+      "content": "Asignacion de segmentos"
+    },
+    {
+      "code": "bank-lbl",
+      "content": "Banco"
+    },
+    {
+      "code": "branch-office-lbl",
+      "content": "Sucursal"
+    },
+    {
+      "code": "business-name-hint",
+      "content": "Razón social de la persona jurídica que se está tratando"
+    },
+    {
+      "code": "business-name-lbl",
+      "content": "Razón social"
+    },
+    {
+      "code": "business-name-subtitle",
+      "content": "Razón social"
+    },
+    {
+      "code": "cancel-btn",
+      "content": "Cancelar"
+    },
+    {
+      "code": "card-number-lbl",
+      "content": "Número de tarjeta"
+    },
+    {
+      "code": "cash-btn",
+      "content": "Efectivo"
+    },
+    {
+      "code": "cbu-lbl",
+      "content": "CBU"
+    },
+    {
+      "code": "charged-payment-methods-title",
+      "content": "Medios de pago cargados"
+    },
+    {
+      "code": "city-hint",
+      "content": "Ciudad de residencia de la persona que se está tratando"
+    },
+    {
+      "code": "city-lbl",
+      "content": "Ciudad"
+    },
+    {
+      "code": "civil-status-hint",
+      "content": "Estado civil de la persona que se está tratando"
+    },
+    {
+      "code": "civil-status-lbl",
+      "content": "Estado civil"
+    },
+    {
+      "code": "confirmation-request-title",
+      "content": "Solicitud de confirmación"
+    },
+    {
+      "code": "consult-edit-legal-person-subtitle",
+      "content": "Consultar/editar persona jurídica"
+    },
+    {
+      "code": "consult-edit-natural-person-subtitle",
+      "content": "Consultar/editar persona física"
+    },
+    {
+      "code": "contact-title",
+      "content": "Contacto"
+    },
+    {
+      "code": "country-code-hint",
+      "content": "Código del pais de la persona que se está tratando"
+    },
+    {
+      "code": "country-code-lbl",
+      "content": "Código país"
+    },
+    {
+      "code": "country-hint",
+      "content": "Pais de la persona que se esta tratando"
+    },
+    {
+      "code": "country-lbl",
+      "content": "País"
+    },
+    {
+      "code": "country-of-residence-hint",
+      "content": "País de residencia de la persona que se está tratando"
+    },
+    {
+      "code": "country-of-residence-lbl",
+      "content": "País de residencia"
+    },
+    {
+      "code": "credit-debit-card-btn",
+      "content": "Tarjeta de credito/debito"
+    },
+    {
+      "code": "currency-lbl",
+      "content": "Moneda"
+    },
+    {
+      "code": "data-means-of-payment-title",
+      "content": "Datos medio de pago"
+    },
+    {
+      "code": "date-of-birth-hint",
+      "content": "Fecha de nacimiento de la persona que se está tratando"
+    },
+    {
+      "code": "date-of-birth-lbl",
+      "content": "Fecha de nacimiento"
+    },
+    {
+      "code": "dept-hint",
+      "content": "Depto del domicilio de la persona jurídica que se está tratando"
+    },
+    {
+      "code": "dept-lbl",
+      "content": "Depto"
+    },
+    {
+      "code": "due-date-lbl",
+      "content": "Fecha de vencimiento"
+    },
+    {
+      "code": "email-hint",
+      "content": "Email de la persona que se está tratando"
+    },
+    {
+      "code": "email-lbl",
+      "content": "E-mail"
+    },
+    {
+      "code": "email-type-hint",
+      "content": "Tipo de email de la persona que se está tratando"
+    },
+    {
+      "code": "email-type-lbl",
+      "content": "Tipo de E-mail"
+    },
+    {
+      "code": "flat-hint",
+      "content": "Piso del domicilio de la persona jurídica que se está tratando"
+    },
+    {
+      "code": "flat-lbl",
+      "content": "Piso"
+    },
+    {
+      "code": "foundation-date-hint",
+      "content": "Fecha de fundación de la persona jurídica que se está tratando"
+    },
+    {
+      "code": "foundation-date-lbl",
+      "content": "Fecha de fundación"
+    },
+    {
+      "code": "gender-hint",
+      "content": "Género de la persona que se está tratando"
+    },
+    {
+      "code": "gender-lbl",
+      "content": "Género"
+    },
+    {
+      "code": "home-title",
+      "content": "Domicilio"
+    },
+    {
+      "code": "id-type-hint",
+      "content": "Tipo de identificación de la persona que se está tratando"
+    },
+    {
+      "code": "id-type-lbl",
+      "content": "Tipo de identificación"
+    },
+    {
+      "code": "id-type-lbl-subtitle",
+      "content": "Tipo de identificación"
+    },
+    {
+      "code": "identification-number-hint",
+      "content": "Número de identificación de la persona que se está tratando"
+    },
+    {
+      "code": "identification-number-lbl",
+      "content": "Número de identificación"
+    },
+    {
+      "code": "identification-number-subtitle",
+      "content": "Nro de identificación"
+    },
+    {
+      "code": "identifications-title",
+      "content": "Identificaciones"
+    },
+    {
+      "code": "identity-number-subtitle",
+      "content": "Nro de identidad"
+    },
+    {
+      "code": "internal-hint",
+      "content": "Interno de la persona que se está tratando"
+    },
+    {
+      "code": "internal-lbl",
+      "content": "Interno"
+    },
+    {
+      "code": "is-it-dept-btn",
+      "content": "¿Es Depto?"
+    },
+    {
+      "code": "last-legal-entities-edited-created-title",
+      "content": "Últimas personas jurídicas editadas/creadas"
+    },
+    {
+      "code": "last-name-hint",
+      "content": "Apellido/s de la persona que se está tratando"
+    },
+    {
+      "code": "last-name-lbl",
+      "content": "Apellido/s"
+    },
+    {
+      "code": "last-name-subtitle",
+      "content": "Apellido"
+    },
+    {
+      "code": "last-physical-persons-edited-created-title",
+      "content": "últimas personas físicas editadas/creadas"
+    },
+    {
+      "code": "legal-person-lbl",
+      "content": "Persona Juridíca"
+    },
+    {
+      "code": "legal-person-search-result-title",
+      "content": "Resultado búsqueda personas jurídicas"
+    },
+    {
+      "code": "linked-relationships-title",
+      "content": "Relaciones vinculadas"
+    },
+    {
+      "code": "listing-class-hint",
+      "content": "Clase cotizante de la persona que se está tratando"
+    },
+    {
+      "code": "listing-class-lbl",
+      "content": "Clase cotizante"
+    },
+    {
+      "code": "load-btn",
+      "content": "Cargar"
+    },
+    {
+      "code": "loaded-notes-subtitle",
+      "content": "Notas cargadas"
+    },
+    {
+      "code": "name-hint",
+      "content": "Nombre/s de la persona que se está tratando"
+    },
+    {
+      "code": "name-lbl",
+      "content": "Nombre/s"
+    },
+    {
+      "code": "name-subtitle",
+      "content": "Nombre"
+    },
+    {
+      "code": "nationality-hint",
+      "content": "Nacionalidad de la persona que se está tratando"
+    },
+    {
+      "code": "nationality-lbl",
+      "content": "Nacionalidad"
+    },
+    {
+      "code": "note-title",
+      "content": "Notas"
+    },
+    {
+      "code": "note-title-hint",
+      "content": "Titulo de la nota que se esta tratando"
+    },
+    {
+      "code": "note-title-lbl",
+      "content": "Título de la nota"
+    },
+    {
+      "code": "notification-of-changes-saved-successfully-ok",
+      "content": "Notificación cambios guardados exitosamente"
+    },
+    {
+      "code": "number-hint",
+      "content": "Número del domicilio de la persona jurídica que se está tratando"
+    },
+    {
+      "code": "number-lbl",
+      "content": "Número"
+    },
+    {
+      "code": "observations-hint",
+      "content": "Observaciones adicionales de la persona que se está tratando"
+    },
+    {
+      "code": "observations-lbl",
+      "content": "Observaciones"
+    },
+    {
+      "code": "observations-note-hint",
+      "content": "Observaciones de la nota que se esta tratando"
+    },
+    {
+      "code": "organization-data-subtitle",
+      "content": "Datos de organización"
+    },
+    {
+      "code": "organization-type-hint",
+      "content": "Tipo de organización de la persona jurídica que se está tratando"
+    },
+    {
+      "code": "organization-type-lbl",
+      "content": "Tipo de organización"
+    },
+    {
+      "code": "party-create-menu",
+      "content": "Crear personas"
+    },
+    {
+      "code": "party-menu",
+      "content": "Personas"
+    },
+    {
+      "code": "party-module",
+      "content": "Módulo de Personas"
+    },
+    {
+      "code": "party-search-menu",
+      "content": "Buscar personas"
+    },
+    {
+      "code": "payment-methods-title",
+      "content": "Medios de pago"
+    },
+    {
+      "code": "personal-information-subtitle",
+      "content": "Datos personales"
+    },
+    {
+      "code": "persons-admin-title",
+      "content": "Administrador de personas"
+    },
+    {
+      "code": "phone-type-hint",
+      "content": "Tipo de teléfono de la persona que se está tratando"
+    },
+    {
+      "code": "phone-type-lbl",
+      "content": "Tipo de teléfono"
+    },
+    {
+      "code": "physical-person-lbl",
+      "content": "Persona Física"
+    },
+    {
+      "code": "postal-code-hint",
+      "content": "Código postal de residencia de la persona que se está tratando"
+    },
+    {
+      "code": "postal-code-lbl",
+      "content": "Código postal"
+    },
+    {
+      "code": "practice-hint",
+      "content": "Práctica de la persona que se está tratando"
+    },
+    {
+      "code": "practice-lbl",
+      "content": "Práctica"
+    },
+    {
+      "code": "province-hint",
+      "content": "Provincia de residencia de la persona que se está tratando"
+    },
+    {
+      "code": "province-lbl",
+      "content": "Provincia"
+    },
+    {
+      "code": "records-title",
+      "content": "Archivos"
+    },
+    {
+      "code": "relations-view-title",
+      "content": "Relaciones"
+    },
+    {
+      "code": "relationship-data-holder-subtitle",
+      "content": "Datos de relaciones:Titular"
+    },
+    {
+      "code": "relationship-hint",
+      "content": "Relación de la persona"
+    },
+    {
+      "code": "relationship-lbl",
+      "content": "Relación"
+    },
+    {
+      "code": "result-search-natural-person-title",
+      "content": "Resultado búsqueda persona física"
+    },
+    {
+      "code": "return-btn",
+      "content": "Volver"
+    },
+    {
+      "code": "save-btn",
+      "content": "Guardar"
+    },
+    {
+      "code": "search-btn",
+      "content": "Buscar"
+    },
+    {
+      "code": "search-legal-entity-subtitle",
+      "content": "Buscar persona jurídica"
+    },
+    {
+      "code": "search-person-subtitle",
+      "content": "Buscar persona física"
+    },
+    {
+      "code": "search-subtitle",
+      "content": "Buscar persona"
+    },
+    {
+      "code": "sector-hint",
+      "content": "Sector de la persona que se está tratando"
+    },
+    {
+      "code": "sector-lbl",
+      "content": "Sector"
+    },
+    {
+      "code": "security-code-lbl",
+      "content": "Código de seguridad"
+    },
+    {
+      "code": "segments-title",
+      "content": "Segmentos"
+    },
+    {
+      "code": "select-file-bnt",
+      "content": "Seleccionar archivo"
+    },
+    {
+      "code": "street-hint",
+      "content": "Calle del domicilio de la persona jurídica que se está tratando"
+    },
+    {
+      "code": "street-lbl",
+      "content": "Calle"
+    },
+    {
+      "code": "supplier-lbl",
+      "content": "Proveedor"
+    },
+    {
+      "code": "tax-category-hint",
+      "content": "Categoría fiscal de la persona que se está tratando"
+    },
+    {
+      "code": "tax-category-lbl",
+      "content": "Categoría fiscal"
+    },
+    {
+      "code": "tax-data-title",
+      "content": "Datos impositivos"
+    },
+    {
+      "code": "telephone-hint",
+      "content": "Teléfono de la persona que se está tratando"
+    },
+    {
+      "code": "telephone-lbl",
+      "content": "Teléfono"
+    },
+    {
+      "code": "to-accept-btn",
+      "content": "Aceptar"
+    },
+    {
+      "code": "to-update-btn",
+      "content": "Editar"
+    },
+    {
+      "code": "type-of-address-hint",
+      "content": "Tipo de domicilio de la persona jurídica que se está tratando"
+    },
+    {
+      "code": "type-of-address-lbl",
+      "content": "Tipo de domicilio"
+    },
+    {
+      "code": "type-of-file-hint",
+      "content": "Tipo de archivo de la persona que se esta tratando"
+    },
+    {
+      "code": "type-of-file-lbl",
+      "content": "Tipo de archivo"
+    },
+    {
+      "code": "uploaded-files-subtitle",
+      "content": "Archivos cargados"
+    },
+    {
+      "code": "user-lbl",
+      "content": "Usuario"
+    },
+    {
+      "code": "worker-type-hint",
+      "content": "Tipo de trabajador que se está tratando"
+    },
+    {
+      "code": "worker-type-lbl",
+      "content": "Tipo de trabajador"
+    }
+  ]
+}

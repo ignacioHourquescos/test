@@ -1,0 +1,2 @@
+curl --location --request GET 'http://api.sysone.la/party/v1/organisation-types' \
+--header 'X-Tenant: sysone'

@@ -1,0 +1,1 @@
+curl --location --request GET 'http://dev-load-balancer-1218611168.us-east-2.elb.amazonaws.com:8080/location/v1/countries' --header 'X-Tenant: sysone'
